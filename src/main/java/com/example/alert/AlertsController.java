@@ -5,6 +5,7 @@ import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
+import javafx.scene.text.Font;
 
 import java.io.*;
 
@@ -51,6 +52,8 @@ public class AlertsController {
             alert[2].start();
         }
     }
+
+
     public void onBtnSaveClick(ActionEvent actionEvent) {
         String p, d, r;
         p = txtPostureTime.getText();

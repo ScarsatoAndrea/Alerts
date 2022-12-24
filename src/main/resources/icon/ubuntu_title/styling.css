@@ -1,0 +1,8 @@
+@font-face{
+    font-family: 'KenyanCoffeeRg-Regular';
+    src: url('kenyan coffee bd it.ttf');
+}
+
+.text{
+    -fx-font-family: "KenyanCoffeeRg-Regular";
+}
